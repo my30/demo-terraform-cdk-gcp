@@ -1,11 +1,11 @@
 variable "service_account_key_path" {
   type = string
-  default = "/Users/ming.yang@contino.io/Documents/Dev/JSON Keys/contini-6199949aa0794ea6-9905de979b2a.json"
+  default = "path-to-service-account-key.json"
 }
 
 variable "gcp_project_id" {
     type = string
-    default = "contini-6199949aa0794ea6"
+    default = "gcp-project-id"
 }
 
 variable "gcp_region" {
